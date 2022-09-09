@@ -1,0 +1,13 @@
+<%-include('base_header') -%>
+<ul>
+  <% for(var i=0; i< list_aboutMe.length; ++i) { %>        
+      <li class="box"> 
+          <span class="descritor">Nome:</span> <%=list_aboutMe[i].nome %><br/>
+          <span class="descritor">Idade:</span> <%=list_aboutMe[i].idade %><br/>
+          <span class="descritor">Tecnologias:</span> <%=list_aboutMe[i].tecnologias %> <br/>
+          <span class="descritor">Experiencia Acadêmica:</span> <%=list_aboutMe[i].escolar %> <br/>
+          <span class="descritor">Contato:</span> <%=list_aboutMe[i].contato %>            
+      </li> 
+  <% } %>
+  </ul>
+<%- include('base_footer') -%>

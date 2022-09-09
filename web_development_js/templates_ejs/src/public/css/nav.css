@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap%27);
+/* import da fonte Roboto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed; /* pra nav ficar sempre em cima */
+    width: 100%; /* pega toda a parte de cima da tela */
+    height: 50px; /* altura da nav */
+    padding-left: 20px; /* da um espaço no começo da nav pro primeiro elemento não ficar colado */
+    display: flex; /* deixa a nav livre pra gente mexer com a centralização */
+    align-items: center; /* alinha os elementos no centro verticalmente */
+    background: #e7e7e7; /* cor da nav */
+    font-family: 'Roboto'; /* fonte do google, que precisa do import lá de cima*/
+}
+nav *{
+    padding-right: 40px; /* distância entre os elementos da nav */
+}
+
+nav a{
+    text-decoration: none; /* tira o aspecto de link dos itens */
+    color: black; /* tira a cor azul dos links */
+}
